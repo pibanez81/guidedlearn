@@ -1,2 +1,2 @@
-# guidlearnreso
-Micro App Guided learning Resources  repository 
+# guidedlearn
+Micro App Guided learning repository 
