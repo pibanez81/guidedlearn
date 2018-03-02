@@ -15,7 +15,7 @@ for (var index = 0; index < json.length; ++index) {
     }
     else {
                 
-        varURLPage = '<a href="' + url_home + '/learning_guide/pages/' + json[index].name + '/' + json[index].name + '.html" target="_blank">';
+        varURLPage = '<a href="' + url_home + '/pages/' + json[index].name + '/' + json[index].name + '.html" target="_blank">';
 
     }
 
