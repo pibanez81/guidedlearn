@@ -19,7 +19,7 @@
             height: 85px;
         }
         
-        .imgBox:hover {  border: solid 1px #CCC;
+        .imgBox:hover {  border: solid 1px;
             -moz-box-shadow: 1px 1px 5px #999;
              -webkit-box-shadow: 1px 1px 5px #999;
              box-shadow: 1px 1px 5px #999;}   
@@ -46,14 +46,14 @@
     <div ng-app="myApp" ng-controller="myCtrl">
     <table class="outerTable">
         <tr>
-            <td colspan="2">
+            <td>
                 <table width="100%">
                     <tr>
                         <td width="40%">
                             <hr class="hrln" />
                         </td>
                         <td width="20%">
-                            <span style="font-size:13pt">Guided Learning1</span>
+                            <span style="font-size:13pt">Guided Learning</span>
                         </td>
                         <td width="40%">
                             <hr class="hrln"  />
