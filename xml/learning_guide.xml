@@ -90,7 +90,7 @@
 		htmlData += '<td valign="top"><a href="' + json[index].url + '" target="_blank"><img src="' + url_image + json[index].name + '.jpg" class="imgBox" /></a></td>';
 	    }
 	    else {
-	       htmlData += '<td valign="top"><a href="' + url_home + '/learning_guide/pages/' + json[index].name + '/' + json[index].name + '.html" target="_blank"><img src="' + url_image + json[index].name + '.jpg" class="imgBox" /></a></td>';
+	       htmlData += '<td valign="top"><a href="' + url_home + '/pages/' + json[index].name + '/' + json[index].name + '.html" target="_blank"><img src="' + url_image + json[index].name + '.jpg" class="imgBox" /></a></td>';
 	    }
 	}
 	//Added for the fixed cell for more 
