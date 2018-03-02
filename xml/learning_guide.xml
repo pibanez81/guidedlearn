@@ -27,7 +27,7 @@
         .outerTable
         {
             //border: 1px solid black;          
-            width: 40%;                    
+            width: 50%;                    
             height:250px;
         }
         .hrln
@@ -42,7 +42,7 @@
     <div ng-app="myApp" ng-controller="myCtrl">
     <table class="outerTable">
         <tr>
-            <td colspan="2">
+            <td>
                 <table width="100%">
                     <tr>
                         <td width="40%">
@@ -56,12 +56,14 @@
                         </td>
                     </tr>
                 </table>
-                     <div id="tblGuidedLearning">
-
-                    </div>
-             
             </td>
         </tr>
+	<tr>
+		<td>
+		    <div id="tblGuidedLearning">
+                    </div>
+		</td>
+ 	</tr>
     </table>
     </div>
    
